@@ -2,78 +2,80 @@
 ### Structurally Correct Economic System Based on Flexionization  
 **Whitepaper v1.2**
 
-NGT (Next Generation Token) — это новая категория экономических систем:  
-**структурно-корректируемые протоколы**,  
-в которых устойчивость возникает из математической динамики состояния,  
-а не из контроля цены или поведения рынка.
+NGT (Next Generation Token) represents a new class of economic systems:  
+**structurally-correctable protocols**,  
+where stability emerges from mathematical state dynamics rather than price control or market behavior.
 
-Основой модели является Flexionization — формальная система,  
-в которой состояние S корректируется через изменение отклонения Δ:
+The model is based on **Flexionization** — a formal system in which the state \( S \) is corrected through controlled deviation \( \Delta \):
 
-F : Δ → ℝ⁺  
-E : ℝ⁺ → ℝ⁺  
-F(S₍t+1₎) = E(F(S₍t₎))
+\[
+F : \Delta \rightarrow \mathbb{R}^+  
+\]
+\[
+E : \mathbb{R}^+ \rightarrow \mathbb{R}^+  
+\]
+\[
+F(S_{t+1}) = E(F(S_t))
+\]
 
-В отличие от стейблкоинов, алгоритмических моделей и индексов,  
-NGT не использует цену как управляющий параметр.  
-Система управляет только **структурой** — пулом активов, обращением токенов и Vault.
+Unlike stablecoins, algorithmic models, or index-based mechanisms,  
+NGT does **not** use price as a control variable.  
+The system manages only **structure** — the asset pool, token circulation, and Vault mechanics.
 
 ---
 
 ## 📄 Whitepaper
 
-Полный документ доступен здесь:
+The full document is available here:
 
 ➡️ **NGT-Whitepaper-v1.2.md**
 
-Версия содержит:
+This version includes:
 
-- формальную модель Flexionization  
-- архитектуру системы  
-- динамику Δ  
-- управление (DAO + Комитет)  
-- ротацию активов  
-- режим EFM  
-- философию модели  
-- риски и ограничения  
-- позиционирование в криптоэкономике  
-- changelog v1.2  
-
----
-
-## 🧠 Основная идея
-
-NGT решает фундаментальную проблему:
-
-> Как построить экономическую систему,  
-> которая остаётся корректной независимо от состояния рынка?
-
-Ответ — Flexionization:  
-формальный механизм, который корректирует структуру системы вместо попыток управлять ценой.
+- the formal Flexionization model  
+- system architecture  
+- Δ dynamics  
+- governance (DAO + Flexionization Committee)  
+- asset rotation  
+- EFM mode  
+- system philosophy  
+- risks and limitations  
+- positioning within crypto-economics  
+- changelog for v1.2  
 
 ---
 
-## 🛠 Технический статус
+## 🧠 Core Concept
+
+NGT addresses a fundamental question:
+
+> How can an economic system remain structurally correct  
+> regardless of market volatility or external conditions?
+
+The answer is **Flexionization**:  
+a formal mechanism that corrects the system’s structure instead of trying to control its price.
+
+---
+
+## 🛠 Technical Status
 
 - **Whitepaper:** v1.2 (current)  
-- **Статус:** Research Release  
-- **Аудит:** планируется  
-- **DAO:** проектирование  
-- **Релиз протокола:** в разработке
+- **Status:** Research Release  
+- **Security Audit:** planned  
+- **DAO:** in design  
+- **Protocol Implementation:** in development
 
 ---
 
-## 📬 Контакт
+## 📬 Contact
 
-Автор: **Maryan Bogdanov**
-
-Email: m7823445@gmail.com 
+Author: **Maryan Bogdanov**  
+Email: **m7823445@gmail.com**  
 GitHub: https://github.com/MaryanBog  
 
 ---
 
-## 📘 Лицензия
+## 📘 License
 
-MIT License  
-Документ открыт для исследования, цитирования и обсуждения.
-
+**MIT License**  
+The document is open for research, discussion, and citation.
