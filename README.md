@@ -1,69 +1,99 @@
-# NGT — Next Generation Token  
-### Structurally Correct Economic System Based on Flexionization  
-**Whitepaper v1.2**
+# NGT — Next Generation Token 2.0
+### Structural Reserve Protocol Based on Flexion Dynamics V2.0
 
-NGT (Next Generation Token) represents a new class of economic systems:  
-**structurally-correctable protocols**,  
-where stability emerges from mathematical state dynamics rather than price control or market behavior.
+NGT-2.0 is a next-generation economic protocol built on formal structural dynamics rather than market mechanisms.  
+The system maintains a mathematically defined structural state:
 
-The model is based on **Flexionization** — a formal system in which the state \( S \) is corrected through controlled deviation \( \Delta \):
+X = (Δ, Φ, M, κ)
 
-\[
-F : \Delta \rightarrow \mathbb{R}^+  
-\]
-\[
-E : \mathbb{R}^+ \rightarrow \mathbb{R}^+  
-\]
-\[
-F(S_{t+1}) = E(F(S_t))
-\]
+Where:
+- Δ — structural deviation  
+- Φ — structural energy  
+- M — accumulated memory  
+- κ — local contractivity  
 
-Unlike stablecoins, algorithmic models, or index-based mechanisms,  
-NGT does **not** use price as a control variable.  
-The system manages only **structure** — the asset pool, token circulation, and Vault mechanics.
+NGT-2.0 preserves long-term viability by ensuring that X always remains inside the Viability Domain:
 
----
+Φ ≤ Φ_max  
+M ≤ M_max  
+||Δ|| ≤ Δ_max  
+κ ≥ 0
 
-## 📄 Whitepaper
-
-The full document is available here:
-
-➡️ **NGT-Whitepaper-v1.2.md**
-
-This version includes:
-
-- the formal Flexionization model  
-- system architecture  
-- Δ dynamics  
-- governance (DAO + Flexionization Committee)  
-- asset rotation  
-- EFM mode  
-- system philosophy  
-- risks and limitations  
-- positioning within crypto-economics  
-- changelog for v1.2  
+This forms a new class of self-preserving economic systems.
 
 ---
 
-## 🧠 Core Concept
+## 📌 If You Are a Grant Reviewer — Start Here
 
-NGT addresses a fundamental question:
+Please begin with:
 
-> How can an economic system remain structurally correct  
-> regardless of market volatility or external conditions?
+**➡️ PROJECT_OVERVIEW.md**  
+A concise overview of the project, motivation, solution, and summary of NGT-2.0.
 
-The answer is **Flexionization**:  
-a formal mechanism that corrects the system’s structure instead of trying to control its price.
+Then continue with:
+- **ROADMAP.md** — 6-month development plan  
+- **TECHNICAL_SPECS.md** — structural and system-level specifications  
+- **GRANT_PROPOSAL.md** — full proposal text  
+- **SECURITY_MODEL.md** — safety constraints and collapse-prevention model  
+
+All documents are located in the repository root for your convenience.
 
 ---
 
-## 🛠 Technical Status
+## 📘 Documentation (Active)
 
-- **Whitepaper:** v1.2 (current)  
-- **Status:** Research Release  
-- **Security Audit:** planned  
-- **DAO:** in design  
-- **Protocol Implementation:** in development
+Located in `/docs`:
+
+- NGT-V2.0-EN.md — full whitepaper (English)  
+- NGT-V2.0-EN.pdf  
+- Pitch-Deck-NGT.md  
+- Pitch-Deck-NGT.pdf  
+
+Archived versions (NGT 1.x) are stored in `/Archives`.
+
+---
+
+## 🧠 What Is NGT-2.0?
+
+NGT-2.0 introduces:
+- Structural Flow instead of market-driven logic  
+- Reserve and Vault as structural components  
+- Governance 2.0 (humans define boundaries, system executes autonomously)  
+- EFM 2.0 — Emergency Flexion Mode  
+- Contractivity guardian (κ ≥ 0)  
+- Collapse Boundary — mathematically defined structural failure surface  
+
+This transforms the protocol into a **structural organism**, not a speculative system.
+
+---
+
+## 🛠 Repository Structure
+
+/
+├── PROJECT_OVERVIEW.md  
+├── ROADMAP.md  
+├── TECHNICAL_SPECS.md  
+├── GRANT_PROPOSAL.md  
+├── TEAM.md  
+├── SECURITY_MODEL.md  
+├── CONTRIBUTING.md  
+├── INSTALLATION.md  
+├── README.md  
+├── docs/  
+└── Archives/
+
+All grant-relevant documents are placed in the root directory.
+
+---
+
+## 🧩 Purpose of the Project
+
+To create the first economic protocol capable of maintaining  
+**structural life indefinitely**,  
+regardless of market conditions.
+
+NGT-2.0 replaces reactive, heuristic, and price-driven designs  
+with formal structural geometry and contractive dynamics.
 
 ---
 
@@ -71,11 +101,11 @@ a formal mechanism that corrects the system’s structure instead of trying to c
 
 Author: **Maryan Bogdanov**  
 Email: **m7823445@gmail.com**  
-GitHub: https://github.com/MaryanBog  
+GitHub: **https://github.com/MaryanBog**
 
 ---
 
-## 📘 License
+## 📜 License
 
-**MIT License**  
-The document is open for research, discussion, and citation.
+MIT License
+
